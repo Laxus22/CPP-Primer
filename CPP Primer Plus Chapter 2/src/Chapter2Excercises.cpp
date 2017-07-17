@@ -26,3 +26,8 @@ void exercise2() {
 	cin >> furlong;
 	cout << furlong << " furlong is " << 3 * furlong << " yards." << endl;
 }
+
+void exercise3(){
+
+}
+}
