@@ -6,8 +6,10 @@ void exercise3();
 void exercise3_1();
 void exercise3_2();
 void exercise4();
-double exercise5(double celcius);
-//double exercise5_0();
+void exercise5(double celcius);
+void exercise6(double lightYears);
+void exercise7(int hour, int minute);
+
 
 int main() {
 //	exercise1();
@@ -15,10 +17,23 @@ int main() {
 //	exercise3();
 //	exercise4();
 	//-----5---------
-	double celsius;
-	std::cout<<"Enter celsius: "<<std::endl;
-	std::cin>>celsius;
-	exercise5(celsius);
+//	double celsius;
+//	std::cout<<"Please enter Celsius value: "<<std::endl;
+//	std::cin>>celsius;
+//	exercise5(celsius);
+	//-----5------
+	//-----6------
+//	double lightYears;
+//	std::cout<<"Enter the number of light years: "<<std::endl;
+//	std::cin>>lightYears;
+//	exercise6(lightYears);
+	//-----7------
+	int hour, minute;
+	std::cout<<"Enter the number of hours: "<<std::endl;
+	std::cin>>hour;
+	std::cout<<"Enter the number of minutes: "<<std::endl;
+	std::cin>>minute;
+	exercise7(hour, minute);
 }
 
 //Exercise 1: displays name and address.
@@ -67,13 +82,19 @@ void exercise4(){
 	std::cout<<"Your age in months is "<<age*12<<" months old :))"<<std::endl;
 }
 
-//
-double exercise5(double celcius){
+//ask for celsius then convert and display to fahrenheit
+void exercise5(double celsius){
+	std::cout<<celsius<<" degrees Celsius is "<<1.8*celsius+32<<" degrees Fahrenheit"<<std::endl;
+}
+
+//ask for light years then covert and display astronomical units
+void exercise6(double lightYears){
+	std::cout<<lightYears<<" light years = "<<lightYears*63240<<" astronomical units."<<std::endl;
+}
+
+//displays time from given arguments
+void exercise7(int hour, int minute){
+	std::cout<<"Time: "<<hour<<":"<<minute<<std::endl;
 
 }
 
-//double exercise5_0(){
-//	double celcius;
-//	std::cout<<"Enter the Celsius temp: "<<std::endl;
-//	return std::cin>>celcius;
-//}
