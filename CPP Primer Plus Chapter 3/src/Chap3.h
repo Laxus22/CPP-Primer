@@ -2,7 +2,7 @@
  * Chap3.h
  *
  *  Created on: Jul 19, 2017
- *      Author: Sh0gun
+ *      Author: shgun
  */
 
 #ifndef SRC_CHAP3_H_
